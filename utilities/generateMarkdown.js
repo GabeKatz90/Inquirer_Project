@@ -1,76 +1,37 @@
 
-function renderLicenseBadge(license) { }
+function renderLicenseBadge(license) { 
+}
 
 function renderLicenseLink(license) { }
 
 function renderLicenseSection(license) { }
 
 
-// function (data) {
-//     let readMeText = `#${data.title}
-
-// ${data.description}
-
-// ${data.installation}
-
-// ${data.usage}
-
-// ${data.license}
-
-// ${data.contributions}
-
-// ${data.test}
-
-// (${data.github})
-
-// ${data.email}`
-
-//     console.log(readMeText)
-
-// }
-
-// function writeToFile () {
-
-// }
-
 function generateMarkdown(data) {
-    return `# ${data.title}
 
-## Title
+    return `# ${data.title},
 
-${data.title}
+    ![App License]
+    
+(https://img.shields.io/badge/license-${data.license}-blue.svg)
 
-## Description
-${data.description}
-
-## Installation
-${data.installation}
-
-## Usage
-${data.usage}
-
-## License
-${data.license}
-
-#Contributions
-
-${data.contributions}
-
-## Data
-
-${data.test}
-
-## Github
-(${data.github})
-
-## Email
-${data.email}`
-
-
+  ## Description
+  ${data.description}
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## License
+  This project is licensed under 
+  ${data.license}.
+  ## Questions
+  For any questions about this project contact me directly at ${data.email}.  You can also find my other repos at [${data.github}](https://github.com/${data.github}/).
+  `;
+  
 }
 
-fs.writeFile(data,(err) => err ? console.log(err) : console.log('Success!'));
+function writeToFile () {
 
-
+}
 
 module.exports = generateMarkdown;
