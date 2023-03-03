@@ -1,20 +1,14 @@
-# city inf,
-
-    ![App License]
-    
-(https://img.shields.io/badge/license-MIT-blue.svg)
+# city info,
 
   ## Description
-  web search for flights and hotels
+  a website search for flights and hotels
   ## Installation
-  inquirer
+  weather api , hotels.com api
   ## Usage
-  d
+  you are able to find everything in 1 place
   ## License
   This project is licensed under 
   MIT.
-  ## Tests
-  undefined
   ## Questions
-  For any questions about this project contact me directly at d.  You can also find my other repos at [d](https://github.com/d/).
+  For any questions about this project contact me directly at gabriel.katz@aol.co.uk.  You can also find my other repos at [gabekatz90](https://github.com/gabekatz90/).
   
